@@ -1,11 +1,15 @@
 /*Universal*/
 body{
-  background-color:#C4c6bc;
+  background-color:#E0E3E5;
+  font-family: Krub;
+  box-sizing: border-box;
 }
 
 h1{
-  font-size: 50px;
-  padding: 10px;
+  font-size: 23pt;
+    padding: 10px;
+    font-weight: 400;
+    margin: 8px 5px;
 }
 
 /*nav*/
@@ -15,7 +19,7 @@ nav{
   justify-content: space-around;
   height: 150px;
   width: 100%;
-  background-color: #040404;
+  background-color: #17280F;
 }
 
 .admin-div{
@@ -26,16 +30,37 @@ nav{
 }
 
 .nav-section{
-display: flex;
-justify-content: space-between;
-align-items: center;
-flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.link-img{
-  height:20px;
-  border-radius: 100%;
-  margin: 10px 10px;
+.fa-leaf{
+  color: #1D8454;
+  margin: 10px 20px 10px 5px;
+}
+
+.sml-logo-text{
+  color: #1D8454;
+  font-size: 14pt;
+  margin: 0px;
+}
+
+.logo-text{
+  color: #1D8454;
+  font-size: 20pt;
+  margin: 0px;
+}
+
+#sort{
+  font-weight: 900;
+  color: #E0E3E5;
+  margin: 0px 20px 5px 5px;
+}
+
+.fa-share-alt, .fa-list-ul, .fa-sun{
+  color: #1D8454;
+  margin: 0px 5px 0px 10px;
 }
 
 .space{
@@ -50,9 +75,14 @@ flex-wrap: wrap;
 }
 
 .header-link{
-  color: #FFF;
+  color: #E0E3E5;
   font-size: 20px;
   text-decoration: none;
+}
+
+.fa-sort-down{
+  color: #1D8454;
+  margin: 10px;
 }
 
 /*Body Tiles*/
@@ -63,7 +93,8 @@ article{
   border: 1px;
   height: 400px;
   background-color: #fff;
-  margin: 5px;
+  margin: 10px;
+  filter: drop-shadow(3px 3px 3px #474747);
 }
 
 .tile-header{
@@ -91,16 +122,43 @@ article{
   position: absolute;
 }
 
-.arrow-icon{
-  height:50px;
-  border-radius:100%;
+.fa-comments{
   z-index: 10;
-  padding-bottom: 30px;
+  padding-bottom:60px;
+  color: #FFF;
+
+}
+
+.tile-body{
+  height: 250px;
+  width:250px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  padding: 10px;
+}
+
+h2{ 
+  font-size: 13pt;
+  margin: 2px 0px;
+}
+
+.date{
+  font-size: 10pt;
+  margin: 2px 0px 8px 0px;
 }
 
 .view-text{
-  font-size: 18pt;
+  font-size: 12pt;
   text-align: center;
+  margin: 3px;
+}
+
+.view-num{
+  font-size:20pt;
+  font-weight: 700;
+  text-align: center;
+  margin:0px;
 }
 
 .views{
@@ -108,23 +166,51 @@ article{
   color: #fff;
   display: flex;
   flex-direction: column;
-  padding-bottom: 30px;
+  padding-bottom: 60px;
+  padding-left: 60px;
+}
+
+.tile-link-div{
+  width: 220px;
+  height: 45px;
+  background-color: #C4c6bc;
+  padding: 6px;
 }
 
 .tile-link{
   width: 80%;
-  height: 30px;
-  background-color: #C4c6bc;
-  word-wrap: break-word;
+  font-size: 10pt;
+  word-break: break-all;
+  margin: 5px 10px 5px 5px;
 }
 
-.tile-body{
+.playlist-p{
+  font-size: 12pt;
+  margin: 12px 0px 0px 0px;
+}
+
+.playlist-name{
+  font-size: 13pt;
+  margin: 3px 0px;
+}
+
+.attachments-p{
+  font-size: 12pt;
+  margin: 13px 0px 3px 0px;
+}
+
+.attachments-num{
+  font-size: 22pt;
+  margin: 3px 0px;
+}
+
+
+.main-tiles{
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-content: center;
-
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
-h2
-
+/*put in media query for 485 px width*/
+/*change the way the nav bar works (looks?)at 645 px*/
+/*put in media query for 345px*/
