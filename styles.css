@@ -19,7 +19,7 @@ nav{
   justify-content: space-around;
   height: 150px;
   width: 100%;
-  background-color: #17280F;
+  background-color: #163F0F;
 }
 
 .admin-div{
@@ -41,15 +41,17 @@ nav{
 }
 
 .sml-logo-text{
-  color: #1D8454;
+  color: #CC3772;
   font-size: 14pt;
   margin: 0px;
+  font-weight: 700;
 }
 
 .logo-text{
-  color: #1D8454;
+  color: #CC3772;
   font-size: 20pt;
   margin: 0px;
+  font-weight: 700;
 }
 
 #sort{
@@ -59,7 +61,7 @@ nav{
 }
 
 .fa-share-alt, .fa-list-ul, .fa-sun{
-  color: #1D8454;
+  color: #CC3772;
   margin: 0px 5px 0px 10px;
 }
 
@@ -117,7 +119,7 @@ article{
   background-color: #040404;
   height: 150px;
   width: 250px;
-  opacity: 0.5;
+  opacity: 0.4;
   z-index: 9;
   position: absolute;
 }
@@ -173,7 +175,7 @@ h2{
 .tile-link-div{
   width: 220px;
   height: 45px;
-  background-color: #C4c6bc;
+  background-color: #E0E3E5;
   padding: 6px;
 }
 
