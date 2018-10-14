@@ -1,6 +1,7 @@
 /*Universal*/
+
 body{
-  background-color:#E0E3E5;
+  background-color: #E0E3E5;
   font-family: Krub;
   box-sizing: border-box;
 }
@@ -12,7 +13,8 @@ h1{
     margin: 8px 5px;
 }
 
-/*nav*/
+/*navigation bar*/
+
 nav{
   display: flex;
   flex-direction: column;
@@ -22,36 +24,18 @@ nav{
   background-color: #163F0F;
 }
 
-.admin-div{
+.username-div{
   display: flex;
   justify-content: flex-end;
   align-items: center;
   padding: 10px 10px;
 }
 
-.nav-section{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.fa-leaf{
-  color: #1D8454;
-  margin: 10px 20px 10px 5px;
-}
-
-.sml-logo-text{
-  color: #CC3772;
-  font-size: 14pt;
-  margin: 0px;
-  font-weight: 700;
-}
-
-.logo-text{
-  color: #CC3772;
-  font-size: 20pt;
-  margin: 0px;
-  font-weight: 700;
+.header-link{
+  color: #E0E3E5;
+  font-size: 20px;
+  text-decoration: none;
+  margin: 0px 10px 0px 0px;
 }
 
 #sort{
@@ -60,43 +44,57 @@ nav{
   margin: 0px 20px 5px 5px;
 }
 
+.nav-section{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .fa-share-alt, .fa-list-ul, .fa-sun{
   color: #CC3772;
   margin: 0px 5px 0px 10px;
 }
 
 .space{
-  flex:10;
+  flex: 10;
 }
 
-.main-logo{
-  height: 75px;
-  width: 75px;
-  border-radius: 30%;
-  padding: 10px;
+.sml-logo-text{
+  color: #CC3772;
+  font-size: 18px;
+  margin: 0px;
+  font-weight: 700;
 }
 
-.header-link{
-  color: #E0E3E5;
-  font-size: 20px;
-  text-decoration: none;
+.logo-text{
+  color: #CC3772;
+  font-size: 26px;
+  margin: 0px;
+  font-weight: 700;
 }
 
-.fa-sort-down{
+.fa-leaf{
   color: #1D8454;
-  margin: 10px;
+  margin: 10px 20px 10px 5px;
 }
 
 /*Body Tiles*/
+
 article{
   display: flex;
   flex-direction: column;
-  width: 250px;
+  width: 275px;
   border: 1px;
   height: 400px;
   background-color: #fff;
   margin: 10px;
   filter: drop-shadow(3px 3px 3px #474747);
+}
+
+.main-tiles{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .tile-header{
@@ -110,7 +108,7 @@ article{
 
 .header-background{
   height: 150px;
-  width:250px;
+  width: 275px;
   position: absolute;
   z-index: 1;
 }
@@ -118,7 +116,7 @@ article{
 .grey-tone{
   background-color: #040404;
   height: 150px;
-  width: 250px;
+  width: 275px;
   opacity: 0.4;
   z-index: 9;
   position: absolute;
@@ -128,39 +126,6 @@ article{
   z-index: 10;
   padding-bottom:60px;
   color: #FFF;
-
-}
-
-.tile-body{
-  height: 250px;
-  width:250px;
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  padding: 10px;
-}
-
-h2{ 
-  font-size: 13pt;
-  margin: 2px 0px;
-}
-
-.date{
-  font-size: 10pt;
-  margin: 2px 0px 8px 0px;
-}
-
-.view-text{
-  font-size: 12pt;
-  text-align: center;
-  margin: 3px;
-}
-
-.view-num{
-  font-size:20pt;
-  font-weight: 700;
-  text-align: center;
-  margin:0px;
 }
 
 .views{
@@ -172,47 +137,168 @@ h2{
   padding-left: 60px;
 }
 
+.view-text{
+  font-size: 16px;
+  text-align: center;
+  margin: 3px;
+}
+
+.view-num{
+  font-size:33px;
+  font-weight: 700;
+  text-align: center;
+  margin:0px;
+}
+
+.tile-body{
+  height: 250px;
+  width: 275px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  padding: 10px;
+}
+
+.name-here{ 
+  font-size: 17px;
+  margin: 2px 0px;
+}
+
+.date{
+  font-size: 12px;
+  margin: 2px 0px 8px 0px;
+}
+
 .tile-link-div{
-  width: 220px;
-  height: 45px;
+  width: 85%;
+  height: 20%;
   background-color: #E0E3E5;
   padding: 6px;
 }
 
 .tile-link{
-  width: 80%;
-  font-size: 10pt;
+  font-size: 12px;
   word-break: break-all;
   margin: 5px 10px 5px 5px;
 }
 
 .playlist-p{
-  font-size: 12pt;
+  font-size: 17px;
   margin: 12px 0px 0px 0px;
 }
 
 .playlist-name{
-  font-size: 13pt;
+  font-size: 17px;
   margin: 3px 0px;
 }
 
 .attachments-p{
-  font-size: 12pt;
+  font-size: 16px;
   margin: 13px 0px 3px 0px;
 }
 
 .attachments-num{
-  font-size: 22pt;
+  font-size: 30px;
   margin: 3px 0px;
 }
 
-
-.main-tiles{
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
+@media only screen and (max-width: 685px){
+  .small-screen-nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+  }
 }
 
-/*put in media query for 485 px width*/
-/*change the way the nav bar works (looks?)at 645 px*/
-/*put in media query for 345px*/
+@media only screen and (max-width: 589px){
+  article{
+    width: 450px;
+    height: 450px
+  }
+
+  h1{
+    margin: 15px 5px;
+  }
+
+  .header-background{
+    width: 450px;
+    height: 200px;
+  }
+
+  .grey-tone{
+    width: 450px;
+    height: 200px;
+  }
+
+  .tile-body{
+    width: 275px;
+    height: 250px;
+  }
+  .tile-link-div{
+    width: 420px;
+  }
+}
+
+@media only screen and (max-width: 485px){
+article{
+    width: 100%px;
+    height: 450px
+  }
+
+  h1{
+    margin: 15px 5px;
+  }
+
+  .header-background{
+    width: 100%;
+    height: 200px;
+  }
+
+  .grey-tone{
+    width: 100%;
+    height: 200px;
+  }
+
+  .tile-body{
+    width: 100%;
+    height: 250px;
+  }
+
+  .tile-link-div{
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 425px){
+article{
+    width: 100%px;
+    height: 450px
+  }
+
+  h1{
+    margin: 15px 5px;
+  }
+
+  .header-background{
+    width: 100%;
+    height: 200px;
+  }
+
+  .grey-tone{
+    width: 100%;
+    height: 200px;
+  }
+
+  .tile-body{
+    width: 100%;
+    height: 250px;
+  }
+
+  .tile-link-div{
+    width: 90%;
+  }
+
+  .hide{
+    display: none;
+  }
+}
