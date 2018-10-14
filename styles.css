@@ -203,17 +203,102 @@ article{
 }
 
 @media only screen and (max-width: 685px){
-  
+  .small-screen-nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+  }
+}
+
+@media only screen and (max-width: 589px){
+  article{
+    width: 450px;
+    height: 450px
+  }
+
+  h1{
+    margin: 15px 5px;
+  }
+
+  .header-background{
+    width: 450px;
+    height: 200px;
+  }
+
+  .grey-tone{
+    width: 450px;
+    height: 200px;
+  }
+
+  .tile-body{
+    width: 275px;
+    height: 250px;
+  }
+  .tile-link-div{
+    width: 420px;
+  }
 }
 
 @media only screen and (max-width: 485px){
+article{
+    width: 100%px;
+    height: 450px
+  }
 
+  h1{
+    margin: 15px 5px;
+  }
+
+  .header-background{
+    width: 100%;
+    height: 200px;
+  }
+
+  .grey-tone{
+    width: 100%;
+    height: 200px;
+  }
+
+  .tile-body{
+    width: 100%;
+    height: 250px;
+  }
+
+  .tile-link-div{
+    width: 90%;
+  }
 }
 
-@media only screen and (max-width: 345px){
+@media only screen and (max-width: 425px){
+article{
+    width: 100%px;
+    height: 450px
+  }
 
+  h1{
+    margin: 15px 5px;
+  }
+
+  .header-background{
+    width: 100%;
+    height: 200px;
+  }
+
+  .grey-tone{
+    width: 100%;
+    height: 200px;
+  }
+
+  .tile-body{
+    width: 100%;
+    height: 250px;
+  }
+
+  .tile-link-div{
+    width: 90%;
+  }
+
+  .hide{
+    display: none;
+  }
 }
-
-/*put in media query for 485 px width*/
-/*change the way the nav bar works (looks?)at 645 px*/
-/*put in media query for 345px*/
