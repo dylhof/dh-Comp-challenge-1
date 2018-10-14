@@ -83,7 +83,7 @@ nav{
 article{
   display: flex;
   flex-direction: column;
-  width: 250px;
+  width: 275px;
   border: 1px;
   height: 400px;
   background-color: #fff;
@@ -108,7 +108,7 @@ article{
 
 .header-background{
   height: 150px;
-  width:250px;
+  width: 275px;
   position: absolute;
   z-index: 1;
 }
@@ -116,7 +116,7 @@ article{
 .grey-tone{
   background-color: #040404;
   height: 150px;
-  width: 250px;
+  width: 275px;
   opacity: 0.4;
   z-index: 9;
   position: absolute;
@@ -126,7 +126,6 @@ article{
   z-index: 10;
   padding-bottom:60px;
   color: #FFF;
-
 }
 
 .views{
@@ -153,7 +152,7 @@ article{
 
 .tile-body{
   height: 250px;
-  width:250px;
+  width: 275px;
   display: flex;
   flex-direction: column;
   align-content: center;
@@ -171,14 +170,13 @@ article{
 }
 
 .tile-link-div{
-  width: 220px;
-  height: 45px;
+  width: 85%;
+  height: 20%;
   background-color: #E0E3E5;
   padding: 6px;
 }
 
 .tile-link{
-  width: 80%;
   font-size: 12px;
   word-break: break-all;
   margin: 5px 10px 5px 5px;
@@ -204,8 +202,17 @@ article{
   margin: 3px 0px;
 }
 
+@media only screen and (max-width: 685px){
+  
+}
 
+@media only screen and (max-width: 485px){
 
+}
+
+@media only screen and (max-width: 345px){
+
+}
 
 /*put in media query for 485 px width*/
 /*change the way the nav bar works (looks?)at 645 px*/
