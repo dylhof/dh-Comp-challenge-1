@@ -271,7 +271,7 @@ article{
 
 @media only screen and (max-width: 425px){
 article{
-    width: 100%px;
+    width: 100%;
     height: 450px
   }
 
