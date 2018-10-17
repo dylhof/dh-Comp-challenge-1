@@ -27,3 +27,7 @@ Color palette, but ONLY if you select a complementary palette. We highly encoura
 ![Static Comp](http://frontend.turing.io/assets/images/static-comp-challenge-2.jpg)
 ## My Version:
 <img width="1248" alt="screen shot 2018-10-17 at 11 34 10 am" src="https://user-images.githubusercontent.com/37079656/47105356-eba39780-d200-11e8-9db6-e96ecc2a6b95.png">
+### Mobile View 1:
+<img width="577" alt="screen shot 2018-10-17 at 11 37 44 am" src="https://user-images.githubusercontent.com/37079656/47105426-2279ad80-d201-11e8-84b9-5fa0ae66ea6d.png">
+### Mobile View 2:
+<img width="411" alt="screen shot 2018-10-17 at 11 39 36 am" src="https://user-images.githubusercontent.com/37079656/47105497-59e85a00-d201-11e8-9966-3cee7094853e.png">
